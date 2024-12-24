@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #007bff, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.welcome-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-rounded {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+.btn-rounded:hover {
+    background-color: #218838;
+    color: #fff;
+}
